@@ -1,15 +1,15 @@
 # Maintainer: Steven Benner
 
 pkgname='mdexsync'
-pkgver='1.0'
+pkgver='1.1'
 pkgrel=1
 pkgdesc='MangaDex download and synchronization tool.'
 arch=('any')
 url="https://github.com/stevenbenner/$pkgname"
 license=('Apache')
-depends=('bc' 'curl' 'diffutils' 'jq')
+depends=('curl' 'diffutils' 'jq')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-b2sums=('8260884c890ebcb7bc0398712056e2ff0bfed94d8b8adeee82c558d38392c949f8bb1055b4dbd078444feea934c4626a03e8d9dc137ca410a1b5dfa5aba3ae68')
+b2sums=('69a42269b2fe75012177c058f1c5a7c6bd949669e1f09d08a947ea4882c024e0d57e20200aa9fa189fa476dca903f851cc5be7aadd59ee1ebfd04d71ecc831aa')
 
 package() {
 	cd "$pkgname-$pkgver"
