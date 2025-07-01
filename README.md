@@ -1,7 +1,7 @@
 # AUR PKGBUILDs
 
-These are the PKGBUILD scripts that I maintain and publish on the [Arch User
-Repository][aur] (AUR).
+These are the PKGBUILD scripts that I maintain for myself and perhaps also
+publish on the [Arch User Repository][aur] (AUR).
 
 They are maintained in this repository as a collection of git subtrees and
 managed by [aurpublish][aurpublish].
